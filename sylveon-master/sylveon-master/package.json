@@ -1,0 +1,37 @@
+{
+  "name": "sylveon",
+  "version": "1.0.0",
+  "description": "```\r npm install\r node index.js\r ```",
+  "main": "index.js",
+  "scripts": {
+    "start": "export NODE_ENV=dev && node index.js",
+    "test": "mocha --timeout 10000 --exit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@git.txstate.edu:CS-3398-001-Fall2018/sylveon.git"
+  },
+  "author": "team_sylveon",
+  "license": "ISC",
+  "dependencies": {
+    "@google/maps": "^0.5.5",
+    "body-parser": "^1.18.3",
+    "chalk": "^2.4.1",
+    "dotenv": "^6.1.0",
+    "express": "^4.16.4",
+    "jsonwebtoken": "^8.3.0",
+    "mongoose": "^5.3.12",
+    "passport": "^0.4.0",
+    "passport-jwt": "^4.0.0",
+    "passport-local": "^1.0.0",
+    "server-js": "^0.1.4"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-http": "^4.2.0",
+    "mocha": "^5.2.0"
+  },
+  "directories": {
+    "test": "tests"
+  }
+}
